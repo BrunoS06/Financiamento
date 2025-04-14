@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    margin: 0px;
+    background-color: rgba(146, 177, 211, 0.856);
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo{
+    background-color: rgba(0, 56, 209, 0.767);
+    height: 4.5rem;
+    width: 99.6%;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+h2{
+    color:white;
+    font-weight: bold;
+    width: 18rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    background-color: rgba(0, 56, 209, 0.767);
+    width: 26rem;
+    height: 31rem;
+    border-style: solid;
+    margin-top: 1rem;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem;
+    margin-right: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#preco{
+    display: flex;
+}
+
+#salario{
+    display: flex;
+}
+
+#tempo{
+    display: flex;
+}
+
+
+label{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    width: 8.5rem;
+    text-align: center;
+}
+
+button{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 8px;
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 1rem;
+    width: 23rem;
+    height: 9.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: gray;
+    border-width: 4px;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+}
