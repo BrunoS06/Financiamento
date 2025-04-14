@@ -9,7 +9,7 @@ body{
 
 #titulo{
     background-color: rgba(0, 56, 209, 0.767);
-    height: 4.5rem;
+    height: 4rem;
     width: 99.6%;
     text-align: center;
     color: white;
@@ -21,7 +21,7 @@ h2{
     color:white;
     font-weight: bold;
     width: 18rem;
-    height: 4rem;
+    height: 3rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -30,7 +30,7 @@ h2{
 #menu{
     display: flex;
     background-color: rgba(0, 56, 209, 0.767);
-    width: 26rem;
+    width: 24.5rem;
     height: 31rem;
     border-style: solid;
     margin-top: 1rem;
@@ -87,8 +87,8 @@ button{
 
 #resultado {
     margin-top: 1rem;
-    width: 23rem;
-    height: 9.5rem;
+    width: 22rem;
+    height: 10.5rem;
     color: rgb(255, 255, 255);
     font-weight: bold;
     border-style: solid;
