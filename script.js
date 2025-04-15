@@ -12,7 +12,7 @@ botao.addEventListener('click', function() {
     let jurosTotal = preco * taxaJuros * prazo
     let valorTotal = preco + jurosTotal
     let parcelaComJuros = valorTotal / meses
-    let resultadoValorTotal = 'O valor total do seu imóvel será de R$' + valorTotal
+    let resultadoValorTotal = 'O valor total do seu imóvel será de R$' + valorTotal.toFixed(2)
     let resultadoParcela = 'O valor de sua parcela será de R$' + parcelaComJuros.toFixed(2) + ' (juros 4%a.a)'
     let maximo = (renda * 30) / 100
     let resultadoMaximo = 'O máximo permitido para sua parcela é de R$' + maximo.toFixed(2) + ' ' + '(30% da renda).'
