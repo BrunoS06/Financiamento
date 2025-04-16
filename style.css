@@ -32,11 +32,7 @@ h2{
     display: flex;
     background-color: rgba(0, 56, 209, 0.767);
     width: 24.5rem;
-<<<<<<< HEAD
     height: 31.3rem;
-=======
-    height: 32rem;
->>>>>>> 532049acc03753d5b1fe8a8c26c164bfcb948922
     border-style: solid;
     margin-top: 1rem;
     border-radius: 20px;
@@ -93,11 +89,7 @@ button{
 #resultado {
     margin-top: 0.7rem;
     width: 22rem;
-<<<<<<< HEAD
     height: 11.3rem;
-=======
-    height: 11rem;
->>>>>>> 532049acc03753d5b1fe8a8c26c164bfcb948922
     color: rgb(255, 255, 255);
     font-weight: bold;
     border-style: solid;
